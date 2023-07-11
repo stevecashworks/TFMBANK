@@ -81,7 +81,7 @@ const cardData=[
 ]
 const ServiceCard=()=>{
     return (
-        <Container>
+        <Container id="services">
             <Title>We help you grow your wealth </Title>
                 <Sub>Don't  just make a deposit, make an investment</Sub>
        <Cards>

@@ -67,7 +67,13 @@ const carouselData=[
                 <div className="captions">
                     <div className='hero'>{item.hero}</div>
                     <Line/>
-                    <Btn id='btn'>Get Started <BiArrowFromLeft/> </Btn>
+
+                    <Btn id='btn'>
+                    <a href="/register" style={{textDecoration:'none',color:"black"}}>
+
+                        Get Started <BiArrowFromLeft/> 
+                    </a>
+                        </Btn>
 
                 </div>
                 </div> )

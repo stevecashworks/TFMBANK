@@ -139,14 +139,14 @@ return(
                 }
                 </NavItem>
                 <NavItem>
-                <Anc href="#">FAQs</Anc>
+                <Anc href="#faqs">FAQs</Anc>
             </NavItem>
             <NavItem>
-                <Anc href="#">Services</Anc>
+                <Anc href="#services">Services</Anc>
             </NavItem>
 
         </Nav>
-        <Link to="/login">
+        <Link style={{textDecoration:"none"}} to="/register">
 
         <Btn className="btn">Join Us <BiRightArrow fill="white"/> </Btn>
         </Link>
